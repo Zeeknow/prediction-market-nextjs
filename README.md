@@ -1,6 +1,7 @@
 # Project Structure:
 
 '''
+
 prediction-market-nextjs/
 ├─ app/
 │  ├─ page.tsx
@@ -10,6 +11,8 @@ prediction-market-nextjs/
 ├─ package.json
 ├─ tsconfig.json
 └─ .gitignore
+
+'''
 
 # Prediction Market Mini Project (Next.js Fullstack)
 
