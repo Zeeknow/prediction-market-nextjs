@@ -1,3 +1,6 @@
+# Project Structure:
+
+'''
 prediction-market-nextjs/
 ├─ app/
 │  ├─ page.tsx
