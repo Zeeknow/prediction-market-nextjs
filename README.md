@@ -1,14 +1,18 @@
 # Project Structure:
 
-'''prediction-market-nextjs/
+'''text
+prediction-market-nextjs/
 ├─ app/
-│  ├─ page.tsx
-│  └─ api/markets/route.ts
+│  ├─ api/
+│  │  └─ markets/
+│  │     └─ route.ts        # Backend API routes for markets
+│  └─ page.tsx              # Frontend UI for creating/loading markets
 ├─ lib/
-│  └─ mongodb.ts
-├─ package.json
-├─ tsconfig.json
-└─ .gitignore'''
+│  └─ mongodb.ts            # MongoDB connection helper (optional)
+├─ package.json             # Project dependencies
+├─ tsconfig.json            # TypeScript configuration
+└─ .env.local               # Environment variables (MongoDB URI)
+'''
 
 # Prediction Market Mini Project (Next.js Fullstack)
 
