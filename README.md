@@ -1,3 +1,13 @@
+prediction-market-nextjs/
+├─ app/
+│  ├─ page.tsx
+│  └─ api/markets/route.ts
+├─ lib/
+│  └─ mongodb.ts
+├─ package.json
+├─ tsconfig.json
+└─ .gitignore
+
 # Prediction Market Mini Project (Next.js Fullstack)
 
 A small fullstack prediction market demo built with:
