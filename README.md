@@ -1,6 +1,6 @@
 # Project Structure:
 
-'''text
+```text
 prediction-market-nextjs/
 ├─ app/
 │  ├─ api/
@@ -12,7 +12,7 @@ prediction-market-nextjs/
 ├─ package.json             # Project dependencies
 ├─ tsconfig.json            # TypeScript configuration
 └─ .env.local               # Environment variables (MongoDB URI)
-'''
+```
 
 # Prediction Market Mini Project (Next.js Fullstack)
 
