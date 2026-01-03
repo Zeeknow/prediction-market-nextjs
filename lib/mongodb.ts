@@ -1,16 +1,17 @@
 import { MongoClient } from "mongodb";
 
-const uri = process.env.MONGODB_URI!;
-const options = {};
+const mongoUri = process.env.MONGODB_URI;
 
-let client;
-let clientPromise: Promise<MongoClient>;
-
-if (!process.env.MONGODB_URI) {
-  throw new Error("Add MONGODB_URI to .env.local");
+if (!mongoUri) {
+  throw new Error("MONGODB_URI is not defined. Add it to .env.local");
 }
 
-client = new MongoClient(uri, options);
+const options = {};
+
+let client: MongoClient;
+let clientPromise: Promise<MongoClient>;
+
+client = new MongoClient(mongoUri, options);
 clientPromise = client.connect();
 
 export default clientPromise;
